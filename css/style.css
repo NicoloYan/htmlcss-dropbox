@@ -7,6 +7,10 @@
 
 /* COMMON */
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 ul {
     list-style-type: none;
 }
@@ -17,6 +21,8 @@ header {
     height: 80px;
     align-items: center;
     width: 100%;
+    top: 0;
+    left: 0;
 }
 
 .nav-flex {
@@ -39,9 +45,29 @@ header a {
     display: flex;
 }
 
-.btn-start {
+.btn-blue {
     background-color: #0161ff;
     color: white;
     padding: 10px 18px;
 
 }
+
+/*Jumbotron*/
+.blue-container {
+    width: 100%;
+    background-color: #b4d0e7;
+}
+.container80 {
+    width: 80%;
+}
+
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.jumbotron-flex {
+    display: flex;
+}
+
