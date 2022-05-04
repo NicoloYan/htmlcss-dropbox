@@ -260,6 +260,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .db-details {
     width: 70%;
@@ -273,6 +274,52 @@ h1 {
 .card img {
     width: 100%;
 }
-.card-container70 {
 
+.card h3 {
+    font-size: 24px;
+}
+
+/* Partner companies */
+
+.partner-companies h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+ .find-out-more-info {
+     margin: 40px 0;
+     text-decoration: underline;
+     color: #0161ff;
+ }
+ .partner-logos-container {
+     width: 100%;
+     margin-top: 40px;
+     display: flex;
+     height: 500px;
+ }
+.logos {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    background-color: green;
+}
+
+.designit {
+    width: calc( 100% - 800px );
+}
+.square {
+    width: 50%;
+    height: 50%
+}
+.green {
+    background-color: green;
+}
+.bordeaux {
+    background-color: #62092b;
+}
+.blue {
+    background-color: #0093ce;
+}
+.red {
+    background-color: #ff1b1c;
 }
