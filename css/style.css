@@ -100,3 +100,66 @@ h1 {
 .jumbo-description a {
     margin-bottom: 30px;
 }
+
+/* Dropbox plan section */
+
+.container70 {
+    width: 70%;
+    margin: 0 auto;
+}
+ .find-your-plan {
+     margin-top: 120px;
+     font-size: 32px;
+ }
+ .selected {
+
+ }
+.unselected {
+
+}
+.flex-columns-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.plan-column {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    height: 500px;
+    border: 1px solid #dbdbdd;
+}
+
+.column-title {
+    text-align: center;
+    border-bottom: 1px solid #dbdbdd;
+    padding: 10px 0;
+}
+.container-column {
+    padding-top: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.plan-title {
+    font-size: 30px;
+}
+
+.plan-price {
+    font-weight: bold;
+    padding: 10px 0;
+}
+.grey-text {
+    color: #687784;
+    font-size: 10px;
+}
+.plan-features {
+    padding: 40px 0;
+}
+.plan-features li {
+    padding: 10px 0;
+}
+.try-now {
+    text-align: center;
+}
