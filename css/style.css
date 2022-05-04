@@ -229,8 +229,7 @@ h1 {
     width: 70%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 60px;
+    margin: 60px auto;
 }
 
 .partner-pic img {
@@ -250,4 +249,30 @@ h1 {
     border: 1px solid black;
     color: black;
     background-color: white;
+}
+/* Dropbox Business Details */
+
+.card-container70 h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.flex-container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.db-details {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 31%;
+}
+
+.card img {
+    width: 100%;
+}
+.card-container70 {
+
 }
