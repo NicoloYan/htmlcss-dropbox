@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
 
 ul {
@@ -125,8 +126,7 @@ h1 {
 .plan-column {
     display: flex;
     flex-direction: column;
-    width: 32.5%;
-    height: 500px;
+    width: 30%;
     border: 1px solid #dbdbdd;
 }
 
@@ -157,9 +157,26 @@ h1 {
 .plan-features {
     padding: 40px 0;
 }
-.plan-features li {
+.container-column li {
     padding: 10px 0;
 }
 .try-now {
     text-align: center;
+    margin-bottom: 30px;
+}
+.purchase-now {
+    text-decoration: underline;
+    color: #3480ff;
+}
+.container-column hr {
+    width: 50px;
+    color: #687784;
+    margin: 30px 0;
+}
+.container-column h3 {
+    font-weight: bold;
+    margin: 30px 0;
+}
+.fa-solid {
+    color: #3480ff;
 }
