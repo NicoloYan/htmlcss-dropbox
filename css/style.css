@@ -177,6 +177,49 @@ h1 {
     font-weight: bold;
     margin: 30px 0;
 }
-.fa-solid {
+.fa-check {
     color: #3480ff;
+}
+.enterprise-plan-box {
+    border: 1px solid #dbdbdd;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.team {
+    text-align: center;
+}
+
+.enterprise-plan-container {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    justify-content: space-between;
+    border: 1px solid #dbdbdd;
+    margin: 0 auto;
+    
+}
+.enterprise-plan-info {
+    width: 75%;
+}
+.contact-office {
+    width: 25%;
+}
+.container90 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.contact-office .btn-blue {
+    width: 100%
+}
+
+.enterprise-plan-info h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.enterprise-plan-info span, p {
+    padding: 30px 0;
 }
