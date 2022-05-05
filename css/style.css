@@ -423,3 +423,33 @@ h1 {
 .fa-chevron-down {
     padding-right: 25px;
 }
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 100%;
+
+}
+.container-footer {
+    width: 85%;
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footer-column {
+    width: 20%;
+}
+.footer-column h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.footer-list {
+    line-height: 25px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+}
