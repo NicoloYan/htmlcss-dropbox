@@ -397,3 +397,29 @@ h1 {
     color: #61082b;
 }
 /* FAQs */
+ .faqs {
+    width: 70%;
+    margin: 80px auto;
+    height: 350px;
+ }
+ .faqs h3 {
+     font-size: 28px;
+     font-weight: bold;
+     margin-bottom: 40px;
+ }
+ .faqs hr {
+    width: 100%;
+ }
+.question {
+    margin: 20px 0;
+}
+.question hr {
+    margin: 20px 0
+}
+.question-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.fa-chevron-down {
+    padding-right: 25px;
+}
