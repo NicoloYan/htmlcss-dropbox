@@ -424,6 +424,7 @@ h1 {
     padding-right: 25px;
 }
 /* Footer */
+/* Top */
 footer {
     background-color: black;
     color: white;
@@ -453,3 +454,6 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+/* Bottom */
+.btm-footer-container 
